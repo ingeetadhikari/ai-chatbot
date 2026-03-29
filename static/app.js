@@ -50,7 +50,7 @@ function createWelcomeScreen() {
   div.className = 'welcome-screen';
   div.innerHTML = `
     <div class="welcome-icon">🤖</div>
-    <h2>Hello! How can I help you today?</h2>
+    <h2>Hi, I'm Ask Ingeet! How can I help you today?</h2>
     <p>Ask me anything — I'm here to help with questions, explanations, ideas, and more.</p>
     <div class="suggestion-chips">
       <button class="chip" onclick="sendSuggestion('What is artificial intelligence?')">What is AI?</button>
